@@ -1,0 +1,203 @@
+# .gitignore para Projeto de Análise de Dados com Python e MongoDB
+
+# =====================
+# AMBIENTE VIRTUAL PYTHON
+# =====================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# =====================
+# ARQUIVOS DO PYTHON
+# =====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# =====================
+# ARQUIVOS DE CONFIGURAÇÃO SENSÍVEIS
+# =====================
+# Variáveis de ambiente
+.env
+.env.local
+.env.production
+.env.development
+
+# Credenciais e chaves
+*.key
+*.pem
+*.crt
+secrets.json
+config_private.py
+
+# =====================
+# ARQUIVOS DO MONGODB
+# =====================
+# Dados locais do MongoDB
+data/db/
+mongodata/
+*.ns
+*.0
+*.1
+*.2
+
+# =====================
+# ARQUIVOS DE BACKUP E PROCESSADOS
+# =====================
+# Não versionar dados processados (são gerados automaticamente)
+data/processed/*
+!data/processed/.gitkeep
+
+# Não versionar backups do MongoDB (são gerados automaticamente)
+data/database/*
+!data/database/.gitkeep
+
+# =====================
+# VISUALIZAÇÕES E RELATÓRIOS GERADOS
+# =====================
+# Gráficos interativos e imagens
+docs/imagens/*.html
+docs/imagens/*.png
+!docs/imagens/.gitkeep
+
+# Relatórios em PDF
+docs/*.pdf
+docs/dashboard_interativo.html
+!docs/.gitkeep
+
+# =====================
+# ARQUIVOS TEMPORÁRIOS DE ANÁLISE
+# =====================
+temp/*
+!temp/.gitkeep
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Editor
+*.sublime-project
+*.sublime-workspace
+
+# =====================
+# ARQUIVOS DE LOG
+# =====================
+*.log
+logs/
+*.log.*
+
+# =====================
+# ARQUIVOS TEMPORÁRIOS
+# =====================
+# Arquivos temporários do Python
+*.tmp
+*.temp
+.cache/
+
+# =====================
+# ARQUIVOS DE NOTEBOOK
+# =====================
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# =====================
+# ARQUIVOS DE DOCUMENTAÇÃO GERADOS
+# =====================
+# Documentação Sphinx
+docs/_build/
+
+# =====================
+# ARQUIVOS DO OVERLEAF/LATEX (se aplicável)
+# =====================
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# =====================
+# EXCEÇÕES - MANTER ESTES ARQUIVOS VAZIOS
+# =====================
+# Manter estrutura de pastas
+!data/processed/.gitkeep
+!data/database/.gitkeep
+!data/raw/.gitkeep
+!docs/.gitkeep
+!docs/imagens/.gitkeep
+!logs/.gitkeep
+!temp/.gitkeep
+
+# =====================
+# ARQUIVOS README E DOCUMENTAÇÃO
+# =====================
+# Manter arquivos de documentação e exemplos
+!README.md
+!docs/README.md
+!requirements.txt
+!.env.example

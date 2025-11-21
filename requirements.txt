@@ -1,0 +1,9 @@
+pymongo==4.6.0
+pandas==2.0.3
+plotly==5.17.0
+seaborn==0.12.2
+jupyter==1.0.0
+python-dotenv==1.0.0
+numpy==1.24.3
+kaleido==0.2.1
+dnspython==2.4.2  # Importante para MongoDB Atlas
