@@ -254,7 +254,7 @@ Este projeto é para fins educacionais. Os dados são baseados em dataset públi
 
 ## 👥 Autores
 
-- **Davi Iacovelli** - [Davgames11](https://github.com/Davgames11)
+- **Davi Iacovelli** - [DaviIacovelli](https://github.com/DaviIacovelli)
 
 ## 🙋‍♂️ Suporte
 
